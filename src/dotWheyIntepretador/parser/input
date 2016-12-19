@@ -1,0 +1,12 @@
+Int @a 10
+Int @b 10
+Int @c 10
+w.<< "Valor para A ->"
+i.>> @a
+w.<< "Valor para B ->"
+i.>> @b
+w.<< "Valor para C ->"
+i.>> @c
+Int @calc (@a+@b+@c)*3
+w.<< "Resultado ->"
+w.<< @calc
